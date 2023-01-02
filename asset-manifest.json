@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ReactContextRoutes/static/css/main.5e1ae868.css",
+    "main.js": "/ReactContextRoutes/static/js/main.cf26e76e.js",
+    "static/media/Frame13.png": "/ReactContextRoutes/static/media/Frame13.c8d4983c02be694cc053.png",
+    "static/media/fullshadow.png": "/ReactContextRoutes/static/media/fullshadow.88d940316397e1613922.png",
+    "static/media/Framebackgroundnew.png": "/ReactContextRoutes/static/media/Framebackgroundnew.2f6118bc825d4158782e.png",
+    "index.html": "/ReactContextRoutes/index.html",
+    "main.5e1ae868.css.map": "/ReactContextRoutes/static/css/main.5e1ae868.css.map",
+    "main.cf26e76e.js.map": "/ReactContextRoutes/static/js/main.cf26e76e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e1ae868.css",
+    "static/js/main.cf26e76e.js"
+  ]
+}

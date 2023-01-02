@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 225, 253);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.backimg {
+
+  z-index: 0;
+  margin: 0 auto;
+  max-width: 2000px;
+  max-height: 1000px;
+  position: absolute;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.btnHeader {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
   display: flex;
-  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.btnHome {
+  left: 6%;
+
+
+
+}
+
+.btnHome,
+.btnAbout,
+.btnProjects {
+  top: 5%;
+
+  font-weight: 600;
   color: white;
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: rgba(137, 43, 226, 0.275);
+  border-radius: 30%;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.btnAbout {
+
+
+  left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+a {
+  text-decoration: none;
+}
+
+.btnProjects {
+  left: 35%;
+}
+
+
+button:hover {
+
+
+  cursor: pointer;
+}
+
+.contextWrapper {
+
+
+
+  right: 47%;
+  top: 20%;
+  z-index: 2;
+  position: absolute;
 }

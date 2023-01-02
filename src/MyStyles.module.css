@@ -1,0 +1,108 @@
+.AboutSection {
+
+
+    text-align: center;
+    z-index: 2;
+
+    margin-right: auto;
+    margin-left: auto;
+
+
+
+
+}
+
+.ptext {
+
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+
+
+
+}
+
+.dark-theme {
+
+    background-image: url("./images/fullshadow.png");
+    width: 800px;
+    height: 600px;
+
+
+    background-repeat: no-repeat;
+
+    background-size: contain;
+
+
+    z-index: 1;
+}
+
+
+.face-theme {
+
+    background-image: url("./images/Frame13.png");
+    width: 800px;
+    height: 600px;
+
+    background-repeat: no-repeat;
+
+    background-size: contain;
+
+
+    z-index: 1;
+
+}
+
+.face-contextBtn {
+
+
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    z-index: 2;
+    width: 100px;
+    height: 40px;
+
+    position: absolute;
+    margin-top: 180px;
+    width: 100px;
+    left: 5%;
+    border: none;
+
+
+
+
+}
+
+.dark-contextBtn {
+
+
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: none;
+    z-index: 2;
+    position: absolute;
+    margin-top: 180px;
+    width: 100px;
+    left: 5%;
+
+    height: 40px;
+
+}
